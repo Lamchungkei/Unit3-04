@@ -1,0 +1,89 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {670, 563}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{91, 58}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{260, 266}, {150, 32}}",
+          "uuid" : "19F55932-2947-4251-B689-94080E61AFC7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the year",
+          "name" : "question_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{91, 122}, {80, 41}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "check_touch_up_inside",
+          "frame" : "{{295, 266}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "D11CA0C4-F146-40DF-BFD1-FA8C36B73B9D",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{91, 207}, {549, 88}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{260, 266}, {150, 32}}",
+          "uuid" : "CDE47600-DB33-487B-A850-1E0E43DA3A94",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "the year is:",
+          "name" : "answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{295, 63}, {200, 27}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "",
+          "font_name" : "<System>",
+          "frame" : "{{235, 266}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "B68A8AEE-065B-419C-8B56-510E05C5B115",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "enter_year_textfield",
+          "font_size" : 17
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
